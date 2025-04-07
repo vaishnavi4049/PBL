@@ -4,19 +4,21 @@
     box-sizing: border-box;
 }
 body{
+    
     background: url(image1.png)
     no-repeat center center fixed;
     background-size: cover;
+    
 }
 
 h2{
     display:inline;
 }
 .navbar{
-    display: flex;
     justify-content:space-between;
     align-items: baseline;
     position:sticky;
+    display: flex;
     top: 0;
     z-index: 1000;
     background-color: navy;
